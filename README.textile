@@ -31,9 +31,7 @@ The elasticsearch-jetty plugin can be installed as any other ES plugin using bin
 
 <pre>
 $ bin/plugin -url https://oss-es-plugins.s3.amazonaws.com/elasticsearch-jetty/elasticsearch-jetty-0.90.12.zip -install elasticsearch-jetty-0.90.12
-</pre>
 or
-<pre>
 $ bin/plugin --install sonian/ElasticSearch-jetty/0.90.12
 </pre>
 
