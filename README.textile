@@ -34,7 +34,7 @@ $ bin/plugin -url https://oss-es-plugins.s3.amazonaws.com/elasticsearch-jetty/el
 </pre>
 or
 <pre>
-$bin/plugin --install sonian/ElasticSearch-jetty/0.90.12
+$ bin/plugin --install sonian/ElasticSearch-jetty/0.90.12
 </pre>
 
 The core of the plugin is JettyHttpServerTransport module that works as a replacement for NettyHttpServerTransport. To enable the elasticsearch-jetty plugin, the default netty http transport should be replaced with jetty http transport by adding the following line to @elasticsearch.yml@.
